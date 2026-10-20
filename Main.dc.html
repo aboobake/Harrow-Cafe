@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The King St. Cafe Home</title>
+<script src="./vendor/react.js"></script>
+<script src="./vendor/react-dom.js"></script>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&amp;family=Instrument+Serif:ital@0;1&amp;family=Figtree:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'Figtree',system-ui,sans-serif;color:#1A1A1A;background:#FFFBF7}
+a{color:#1A1A1A}a:hover{color:#C93B62}
+</style>
+</helmet>
+
+<div style="width:100%;background:#FFFBF7;font-family:'Figtree',system-ui,sans-serif;color:#1A1A1A;overflow:hidden">
+
+<!-- Concept banner -->
+<div style="background:#1A1A1A;color:#FFFBF7;padding:8px 24px;text-align:center;font-size:13px;font-weight:600;letter-spacing:.02em">Concept preview made for The King St. Cafe. This is a design idea, not the live site.</div>
+
+<!-- Hero block (pink) -->
+<div style="background:#F7D3DB">
+
+<!-- Open today strip -->
+<div style="border-bottom:2px solid #1A1A1A;padding:10px 24px;display:flex;flex-wrap:wrap;gap:6px 24px;justify-content:center;align-items:center;font-size:15px;font-weight:600">
+<span>Open today 8am to 4pm</span>
+<span style="font-weight:500">24 King St. West, Harrow</span>
+</div>
+
+<!-- Nav -->
+<div style="max-width:1240px;margin:0 auto;padding:18px 24px;box-sizing:border-box;display:flex;flex-wrap:wrap;gap:12px 32px;align-items:center;justify-content:space-between">
+<a href="#top" aria-label="The King St. Cafe home" style="display:block;line-height:0"><img src="./assets/082cf000ff21eabb2d0bd4bea942eefa.jpg" alt="The King St. Cafe, a small batch bakery" style="width:84px;height:84px;border-radius:50%;object-fit:cover;border:2px solid #1A1A1A"></a>
+<div style="display:flex;flex-wrap:wrap;gap:4px 28px;align-items:center;font-size:17px;font-weight:600">
+<a href="#menu" style="text-decoration:none;padding:12px 0">Menu</a>
+<a href="#around" style="text-decoration:none;padding:12px 0">Around the shop</a>
+<a href="#hours" style="text-decoration:none;padding:12px 0">Hours</a>
+<a href="#visit" style="text-decoration:none;background:#1A1A1A;color:#FFFBF7;padding:13px 24px;border-radius:999px">Visit us</a>
+</div>
+</div>
+
+<!-- Hero -->
+<div id="top" style="max-width:1240px;margin:0 auto;padding:28px 24px 88px;box-sizing:border-box;display:flex;flex-wrap:wrap;gap:40px;align-items:center">
+<div style="flex:1 1 460px;min-width:0;display:flex;flex-direction:column;gap:26px">
+<div style="font-family:'Instrument Serif',Georgia,serif;font-style:italic;font-size:32px;color:{{accent}}">A small batch bakery in Harrow</div>
+<h1 style="margin:0;font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:700;text-transform:uppercase;font-size:124px;line-height:.9;letter-spacing:.005em">Come in<br>for a treat.</h1>
+<p style="margin:0;font-size:20px;line-height:1.55;color:#3A3438;max-width:500px">Homemade soups, hearty sandwiches, fresh-baked bagels and sweets made in small batches, in a bright, cozy spot on King Street.</p>
+<div style="display:flex;flex-wrap:wrap;gap:14px">
+<a href="#menu" style="text-decoration:none;background:#1A1A1A;color:#FFFBF7;padding:16px 30px;border-radius:999px;font-size:17px;font-weight:600">See the menu</a>
+<a href="#visit" style="text-decoration:none;background:#FFFBF7;border:2px solid #1A1A1A;padding:14px 28px;border-radius:999px;font-size:17px;font-weight:600">Get directions</a>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:10px">
+<span style="background:#FFFBF7;border-radius:999px;padding:8px 16px;font-size:15px;font-weight:600">Homemade soups</span>
+<span style="background:#CBE8DF;border-radius:999px;padding:8px 16px;font-size:15px;font-weight:600">Fresh-baked bagels</span>
+<span style="background:#FFF1BF;border-radius:999px;padding:8px 16px;font-size:15px;font-weight:600">Small batch sweets</span>
+</div>
+</div>
+<div style="flex:1 1 440px;min-width:0;position:relative;height:660px">
+<div style="position:absolute;left:0;top:30px;width:56%;box-sizing:border-box;background:#FFFFFF;padding:12px 12px 14px;border-radius:6px;box-shadow:0 14px 30px rgba(26,26,26,.2);transform:rotate(-4deg);display:flex;flex-direction:column;gap:10px">
+<img src="./assets/e6e7502257d994e48d373df5c442918d.jpg" alt="Trays of small batch layered desserts with whipped cream and cocoa dusting" style="width:100%;aspect-ratio:3/4;height:auto;object-fit:cover;border-radius:2px;display:block">
+<div style="text-align:center;font-family:'Instrument Serif',Georgia,serif;font-style:italic;font-size:22px">Small batch sweets</div>
+</div>
+<div style="position:absolute;right:0;top:170px;width:50%;box-sizing:border-box;background:#FFFFFF;padding:12px 12px 14px;border-radius:6px;box-shadow:0 14px 30px rgba(26,26,26,.2);transform:rotate(5deg);display:flex;flex-direction:column;gap:10px">
+<img src="./assets/cdebf7faaf16dfc0ce15319424e9c2f4.jpg" alt="The cafe's front door with autumn pumpkins and corn stalks against red brick" style="width:100%;aspect-ratio:3/4;height:auto;object-fit:cover;border-radius:2px;display:block">
+<div style="text-align:center;font-family:'Instrument Serif',Georgia,serif;font-style:italic;font-size:22px">Come on in!</div>
+</div>
+<svg viewBox="0 0 130 130" width="132" height="132" role="img" aria-label="Small batch bakery, Harrow" xmlns="http://www.w3.org/2000/svg" style="position:absolute;right:4px;top:0">
+<defs><path id="badgeCircle" d="M 65,65 m -47,0 a 47,47 0 1,1 94,0 a 47,47 0 1,1 -94,0"></path></defs>
+<circle cx="65" cy="65" r="63" fill="#1A1A1A"></circle>
+<text font-family="Barlow Condensed,Arial Narrow,sans-serif" font-size="15" font-weight="700" fill="#FFF1BF" letter-spacing="2"><textPath href="#badgeCircle" textLength="290" lengthAdjust="spacing">SMALL BATCH BAKERY * HARROW * </textPath></text>
+<path d="M65 80 C48 68 44 58 44 52 A11 11 0 0 1 65 48 A11 11 0 0 1 86 52 C86 58 82 68 65 80 Z" fill="#F7D3DB"></path>
+</svg>
+</div>
+</div>
+
+</div>
+
+<!-- Scalloped edge -->
+<div style="height:14px;background:radial-gradient(circle at 14px 0, #F7D3DB 14px, rgba(247,211,219,0) 14.5px) 0 0/28px 14px repeat-x"></div>
+
+<!-- Ribbon -->
+<div style="overflow:hidden;padding:36px 0">
+<div style="width:110%;margin-left:-5%;transform:rotate(-1.5deg);background:#1A1A1A;color:#FFF1BF;padding:14px 0;white-space:nowrap;font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:700;text-transform:uppercase;font-size:34px;letter-spacing:.08em;text-align:center">Soups &nbsp;★&nbsp; Sandwiches &nbsp;★&nbsp; Bagels &nbsp;★&nbsp; Desserts &nbsp;★&nbsp; Coffee &amp; tea &nbsp;★&nbsp; Soups &nbsp;★&nbsp; Sandwiches &nbsp;★&nbsp; Bagels &nbsp;★&nbsp; Desserts</div>
+</div>
+
+<!-- Menu -->
+<div id="menu" style="max-width:1240px;margin:0 auto;padding:40px 24px 96px;box-sizing:border-box;display:flex;flex-direction:column;gap:44px">
+<div style="display:flex;flex-direction:column;gap:10px;max-width:640px">
+<div style="font-family:'Instrument Serif',Georgia,serif;font-style:italic;font-size:30px;color:{{accent}}">Made fresh, in small batches</div>
+<h2 style="margin:0;font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:700;text-transform:uppercase;font-size:76px;line-height:.95">Our menu</h2>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:48px;align-items:flex-start">
+<div style="flex:0 1 300px;min-width:240px;position:relative;margin:0 0 16px 0">
+<div style="position:absolute;left:16px;top:16px;right:-16px;bottom:-16px;background:#F7D3DB;border-radius:24px"></div>
+<img src="./assets/10b5177988972dc737585587b67f14af.jpg" alt="A grilled sandwich with a bowl of soup, a latte and a small dessert cup on a marble table" style="position:relative;display:block;width:100%;aspect-ratio:376/749;height:auto;object-fit:cover;border-radius:24px;border:3px solid #1A1A1A;box-sizing:border-box">
+</div>
+<div style="flex:1 1 560px;min-width:0;background:#1A1A1A;color:#FFFBF7;border-radius:28px;padding:44px 44px 36px;box-sizing:border-box;display:flex;flex-direction:column;gap:30px">
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:34px 48px"><div style="display:flex;flex-direction:column;gap:12px"><div style="font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:700;text-transform:uppercase;font-size:34px;letter-spacing:.05em;color:#CBE8DF;border-bottom:2px solid #CBE8DF;padding-bottom:6px">Breakfast</div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>Bagel with cream cheese</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>$3.50</span></div></div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>Bagel breakfast sandwich</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>$8.00</span></div><div style="font-size:14px;line-height:1.4;color:#C9C2C6">Egg, bacon, cheese, tomato and arugula</div></div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>Add bacon</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>$3.00</span></div></div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>Add tomato</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>$1.00</span></div></div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>Extra cream cheese (plain or herb &amp; garlic)</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>$2.00</span></div></div></div><div style="display:flex;flex-direction:column;gap:12px"><div style="font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:700;text-transform:uppercase;font-size:34px;letter-spacing:.05em;color:#F7D3DB;border-bottom:2px solid #F7D3DB;padding-bottom:6px">Lunch</div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>Soup of the day</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>10 oz $4.85 / 16 oz $7.75</span></div><div style="font-size:14px;line-height:1.4;color:#C9C2C6">Served with baguette</div></div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>Mediterranean veggie sandwich</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>Full $12.50 / Half $7.50</span></div><div style="font-size:14px;line-height:1.4;color:#C9C2C6">Roasted red pepper, tomato, onion, cucumber, arugula, feta and hummus on multigrain</div></div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>Turkey mozzarella sandwich</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>Full $15.60 / Half $7.80</span></div><div style="font-size:14px;line-height:1.4;color:#C9C2C6">Roasted turkey, mozzarella, tomato, arugula and tomato-basil pesto on ciabatta</div></div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>Grilled cheese</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>$9.25</span></div><div style="font-size:14px;line-height:1.4;color:#C9C2C6">Cheddar and mozzarella on white. Add bacon $3.00, add tomato $1.00</div></div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>Chicken bacon ranch wrap</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>$15.60</span></div><div style="font-size:14px;line-height:1.4;color:#C9C2C6">Roasted chicken, bacon, cheddar, arugula, tomato, onion and ranch</div></div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>Add a 10 oz soup to any sandwich</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>$4.00</span></div></div></div><div style="display:flex;flex-direction:column;gap:12px"><div style="font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:700;text-transform:uppercase;font-size:34px;letter-spacing:.05em;color:#FFF1BF;border-bottom:2px solid #FFF1BF;padding-bottom:6px">Hot drinks</div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>Coffee or decaf (12 / 16 oz)</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>$2.75 / $3.25</span></div></div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>Espresso</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>$3.25</span></div></div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>Double espresso</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>$3.75</span></div></div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>Americano</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>$3.75</span></div></div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>Cortado</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>$4.00</span></div></div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>Latte (12 / 16 oz)</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>$4.25 / $4.75</span></div></div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>Cappuccino (12 / 16 oz)</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>$4.50 / $5.00</span></div></div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>Hot chocolate</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>$4.25</span></div></div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>Cafe mocha</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>$4.25</span></div></div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>London fog</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>$4.25</span></div></div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>Chai tea latte</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>$4.25</span></div></div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>Loose leaf tea</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>$3.25</span></div></div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>Matcha</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>$4.50</span></div></div></div><div style="display:flex;flex-direction:column;gap:12px"><div style="font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:700;text-transform:uppercase;font-size:34px;letter-spacing:.05em;color:#CBE8DF;border-bottom:2px solid #CBE8DF;padding-bottom:6px">Cold drinks</div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>Iced coffee (16 / 24 oz)</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>$4.00 / $5.00</span></div></div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>Iced latte (16 / 24 oz)</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>$4.50 / $5.50</span></div></div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>Raspberry hibiscus tea (16 / 24 oz)</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>$5.50 / $6.50</span></div></div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>Strawberry lemonade (16 / 24 oz)</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>$4.50 / $5.50</span></div></div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>Sweet tea (16 / 24 oz)</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>$4.00 / $5.00</span></div></div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>Smoothie</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>$9.00</span></div></div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>Coffee smoothie</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>$6.50</span></div></div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>Add protein powder</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>$2.00</span></div></div><div style="font-size:14px;line-height:1.4;color:#C9C2C6">Smoothies: strawberry, banana, mango, peach or blueberry</div></div><div style="display:flex;flex-direction:column;gap:12px"><div style="font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:700;text-transform:uppercase;font-size:34px;letter-spacing:.05em;color:#F7D3DB;border-bottom:2px solid #F7D3DB;padding-bottom:6px">Flavour shots</div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>Add a flavour to any drink</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>+$2.00</span></div></div><div style="font-size:17px;line-height:1.5">Vanilla*, caramel*, chocolate*, cookies &amp; cream*, s'mores*, cookie dough*, hazelnut, tiramisu</div><div style="font-size:14px;line-height:1.4;color:#C9C2C6">*Sugar-free available. Ask about our seasonal options.</div></div><div style="display:flex;flex-direction:column;gap:12px"><div style="font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:700;text-transform:uppercase;font-size:34px;letter-spacing:.05em;color:#FFF1BF;border-bottom:2px solid #FFF1BF;padding-bottom:6px">Desserts</div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>[DESSERT NAME]</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>[$]</span></div></div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>[DESSERT NAME]</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>[$]</span></div></div><div style="display:flex;flex-direction:column;gap:2px"><div style="display:flex;align-items:baseline;gap:8px;font-size:17px"><span>[DESSERT NAME]</span><span style="flex:1;border-bottom:2px dotted #8A8085"></span><span>[$]</span></div></div></div></div>
+<div style="font-size:14px;color:#C9C2C6;line-height:1.5">Menu and prices may change. Please ask in the cafe for today's soup and sweets.</div>
+</div>
+</div>
+</div>
+
+<!-- Around the shop -->
+<div id="around" style="background:#CBE8DF">
+<div style="max-width:1240px;margin:0 auto;padding:96px 24px;box-sizing:border-box;display:flex;flex-wrap:wrap;gap:56px;align-items:center">
+<div style="flex:1 1 440px;min-width:0;display:flex;flex-direction:column;gap:22px">
+<div style="font-family:'Instrument Serif',Georgia,serif;font-style:italic;font-size:32px;color:#1F4A40">Small town, big personality</div>
+<h2 style="margin:0;font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:700;text-transform:uppercase;font-size:76px;line-height:.95">Baked small batch, decorated with a grin</h2>
+<p style="margin:0;font-size:19px;line-height:1.55;color:#1F2E2A;max-width:520px">From pumpkins at the door to the skeleton baker in the kitchen, there's always something fun going on. Whether you're stopping in for a morning coffee, a leisurely lunch, or a sweet treat with tea, you'll find a clean, welcoming space that feels just like home. Come relax, connect, and enjoy something made with love. [OWNER NAME / A LINE ABOUT THE STORY]</p>
+<div style="display:flex;flex-wrap:wrap;gap:14px">
+<a href="https://www.instagram.com/thekingstreetcafe/" style="text-decoration:none;background:#1A1A1A;color:#FFFBF7;padding:15px 26px;border-radius:999px;font-size:17px;font-weight:600">Follow on Instagram</a>
+<a href="https://www.facebook.com/p/The-King-St-Cafe-61559001776579/" style="text-decoration:none;background:#FFFBF7;border:2px solid #1A1A1A;padding:13px 24px;border-radius:999px;font-size:17px;font-weight:600">Find us on Facebook</a>
+</div>
+</div>
+<div style="flex:1 1 440px;min-width:0;position:relative;height:620px">
+<div style="position:absolute;left:0;top:10px;width:52%;box-sizing:border-box;background:#FFFFFF;padding:12px 12px 14px;border-radius:6px;box-shadow:0 14px 30px rgba(26,26,26,.2);transform:rotate(-5deg);display:flex;flex-direction:column;gap:10px">
+<img src="./assets/b8e8ce3d1a0082178f9082062ecbee03.jpg" alt="The cafe's sidewalk sign reading Come In For A Treat, with a skeleton at a patio table" style="width:100%;aspect-ratio:3/4;height:auto;object-fit:cover;border-radius:2px;display:block">
+<div style="text-align:center;font-family:'Instrument Serif',Georgia,serif;font-style:italic;font-size:22px">Pull up a chair</div>
+</div>
+<div style="position:absolute;right:0;top:120px;width:52%;box-sizing:border-box;background:#FFFFFF;padding:12px 12px 14px;border-radius:6px;box-shadow:0 14px 30px rgba(26,26,26,.2);transform:rotate(4deg);display:flex;flex-direction:column;gap:10px">
+<img src="./assets/6ca96da2627d7f3e0fdb72ad1212cb87.jpg" alt="A skeleton in a King St. Cafe apron and chef cap with pie crusts and a rolling pin" style="width:100%;aspect-ratio:3/4;height:auto;object-fit:cover;border-radius:2px;display:block">
+<div style="text-align:center;font-family:'Instrument Serif',Georgia,serif;font-style:italic;font-size:22px">The baker on duty</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Reviews -->
+<div style="max-width:1240px;margin:0 auto;padding:96px 24px 40px;box-sizing:border-box;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:10px;max-width:640px">
+<div style="font-family:'Instrument Serif',Georgia,serif;font-style:italic;font-size:30px;color:{{accent}}">Kind words from the neighbourhood</div>
+<h2 style="margin:0;font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:700;text-transform:uppercase;font-size:76px;line-height:.95">Our community</h2>
+</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px">
+<div style="background:#FFF1BF;border:2px solid #1A1A1A;border-radius:24px;padding:28px 26px;display:flex;flex-direction:column;gap:14px">
+<div role="img" aria-label="5 out of 5 stars" style="font-size:24px;letter-spacing:4px">★★★★★</div>
+<div style="font-family:'Instrument Serif',Georgia,serif;font-size:26px;line-height:1.25">[REAL REVIEW QUOTE, ADDED WITH PERMISSION]</div>
+<div style="font-size:15px;font-weight:600">[REVIEWER NAME]</div>
+</div>
+<div style="background:#F7D3DB;border:2px solid #1A1A1A;border-radius:24px;padding:28px 26px;display:flex;flex-direction:column;gap:14px">
+<div role="img" aria-label="5 out of 5 stars" style="font-size:24px;letter-spacing:4px">★★★★★</div>
+<div style="font-family:'Instrument Serif',Georgia,serif;font-size:26px;line-height:1.25">[REAL REVIEW QUOTE, ADDED WITH PERMISSION]</div>
+<div style="font-size:15px;font-weight:600">[REVIEWER NAME]</div>
+</div>
+<div style="background:#CBE8DF;border:2px solid #1A1A1A;border-radius:24px;padding:28px 26px;display:flex;flex-direction:column;gap:14px">
+<div role="img" aria-label="5 out of 5 stars" style="font-size:24px;letter-spacing:4px">★★★★★</div>
+<div style="font-family:'Instrument Serif',Georgia,serif;font-size:26px;line-height:1.25">[REAL REVIEW QUOTE, ADDED WITH PERMISSION]</div>
+<div style="font-size:15px;font-weight:600">[REVIEWER NAME]</div>
+</div>
+</div>
+</div>
+
+<!-- Hours + visit -->
+<div id="hours" style="background:#F7D3DB;margin-top:56px">
+<div id="visit" style="max-width:1240px;margin:0 auto;padding:96px 24px;box-sizing:border-box;display:flex;flex-direction:column;gap:48px">
+<h2 style="margin:0;font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:700;text-transform:uppercase;font-size:96px;line-height:.9">Join us on<br>King Street.</h2>
+<div style="display:flex;flex-wrap:wrap;gap:56px">
+<div style="flex:1 1 360px;min-width:0;display:flex;flex-direction:column;gap:10px">
+<div style="font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:700;text-transform:uppercase;font-size:34px;letter-spacing:.05em">Hours</div>
+<div style="display:flex;flex-direction:column;font-size:19px">
+<div style="display:flex;justify-content:space-between;gap:16px;padding:13px 0;border-bottom:1px solid #D79DAC"><span>Monday</span><span style="font-weight:700">8am to 4pm</span></div>
+<div style="display:flex;justify-content:space-between;gap:16px;padding:13px 0;border-bottom:1px solid #D79DAC"><span>Tuesday</span><span style="font-weight:700">8am to 4pm</span></div>
+<div style="display:flex;justify-content:space-between;gap:16px;padding:13px 0;border-bottom:1px solid #D79DAC"><span>Wednesday</span><span style="font-weight:700">8am to 4pm</span></div>
+<div style="display:flex;justify-content:space-between;gap:16px;padding:13px 0;border-bottom:1px solid #D79DAC"><span>Thursday</span><span style="font-weight:700">8am to 4pm</span></div>
+<div style="display:flex;justify-content:space-between;gap:16px;padding:13px 0;border-bottom:1px solid #D79DAC"><span>Friday</span><span style="font-weight:700">8am to 4pm</span></div>
+<div style="display:flex;justify-content:space-between;gap:16px;padding:13px 0;border-bottom:1px solid #D79DAC"><span>Saturday</span><span style="font-weight:700">9am to 4pm</span></div>
+<div style="display:flex;justify-content:space-between;gap:16px;padding:13px 0"><span>Sunday</span><span style="font-weight:700">9am to 4pm</span></div>
+</div>
+</div>
+<div style="flex:1 1 360px;min-width:0;display:flex;flex-direction:column;gap:18px">
+<div style="font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:700;text-transform:uppercase;font-size:34px;letter-spacing:.05em">Find us</div>
+<div style="font-size:22px;line-height:1.5">24 King St. West<br>Harrow, Ontario N0R 1G0</div>
+<div style="font-size:19px">Phone: <a href="tel:+15197384747" style="font-weight:600">(519) 738-4747</a></div>
+<div style="display:flex;flex-wrap:wrap;gap:14px">
+<a href="https://www.google.com/maps/search/?api=1&amp;query=24+King+St+W+Harrow+ON" style="text-decoration:none;background:#1A1A1A;color:#FFFBF7;padding:15px 26px;border-radius:999px;font-size:17px;font-weight:600">Get directions</a>
+<a href="https://www.instagram.com/thekingstreetcafe/" style="text-decoration:none;background:#FFFBF7;border:2px solid #1A1A1A;padding:13px 24px;border-radius:999px;font-size:17px;font-weight:600">Instagram</a>
+<a href="https://www.facebook.com/p/The-King-St-Cafe-61559001776579/" style="text-decoration:none;background:#FFFBF7;border:2px solid #1A1A1A;padding:13px 24px;border-radius:999px;font-size:17px;font-weight:600">Facebook</a>
+</div>
+</div>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=24+King+St+W+Harrow+ON" aria-label="Open The King St. Cafe in Google Maps" style="flex:1 1 360px;min-width:0;display:block;height:300px;border-radius:24px;overflow:hidden;line-height:0;border:2px solid #1A1A1A;box-sizing:border-box">
+<svg viewBox="0 0 560 240" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" role="img" aria-label="Illustrated map showing The King St. Cafe on King St. West" xmlns="http://www.w3.org/2000/svg" style="display:block">
+<rect width="560" height="240" fill="#E6F3EE"></rect>
+<rect x="14" y="14" width="150" height="76" rx="10" fill="#F6EFE6"></rect>
+<rect x="180" y="14" width="120" height="76" rx="10" fill="#F6EFE6"></rect>
+<rect x="318" y="14" width="228" height="76" rx="10" fill="#CBE8DF"></rect>
+<rect x="14" y="150" width="110" height="76" rx="10" fill="#F6EFE6"></rect>
+<rect x="140" y="150" width="160" height="76" rx="10" fill="#F6EFE6"></rect>
+<rect x="318" y="150" width="228" height="76" rx="10" fill="#F6EFE6"></rect>
+<rect x="0" y="100" width="560" height="40" fill="#D9CFC3"></rect>
+<rect x="0" y="103" width="560" height="34" fill="#FFFFFF"></rect>
+<rect x="164" y="0" width="16" height="240" fill="#FFFFFF"></rect>
+<rect x="300" y="0" width="18" height="240" fill="#FFFFFF"></rect>
+<text x="40" y="125" font-family="Figtree,system-ui,sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#6B6168">KING ST. W</text>
+<text x="400" y="125" font-family="Figtree,system-ui,sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#6B6168">KING ST. W</text>
+<g transform="translate(232,52)">
+<path d="M0 62 C-22 36 -30 24 -30 8 A30 30 0 0 1 30 8 C30 24 22 36 0 62 Z" fill="#1A1A1A"></path>
+<circle cx="0" cy="8" r="12" fill="#F7D3DB"></circle>
+</g>
+<g transform="translate(250,24)">
+<rect x="0" y="0" width="148" height="30" rx="15" fill="#1A1A1A"></rect>
+<text x="74" y="20" text-anchor="middle" font-family="Figtree,system-ui,sans-serif" font-size="13" font-weight="700" fill="#FFFBF7">The King St. Cafe</text>
+</g>
+<g transform="translate(402,196)">
+<rect x="0" y="0" width="142" height="30" rx="15" fill="#FFFFFF"></rect>
+<text x="71" y="20" text-anchor="middle" font-family="Figtree,system-ui,sans-serif" font-size="12" font-weight="700" fill="#1A1A1A">Open in Google Maps</text>
+</g>
+</svg>
+</a>
+</div>
+</div>
+</div>
+
+<!-- Footer -->
+<div style="background:#1A1A1A;color:#E4DEDA">
+<div style="max-width:1240px;margin:0 auto;padding:36px 24px;box-sizing:border-box;display:flex;flex-wrap:wrap;gap:16px 32px;justify-content:space-between;align-items:center;font-size:15px">
+<img src="./assets/082cf000ff21eabb2d0bd4bea942eefa.jpg" alt="The King St. Cafe logo" style="width:72px;height:72px;border-radius:50%;object-fit:cover">
+<div>24 King St. West, Harrow, Ontario N0R 1G0</div>
+<div>Open 8am to 4pm weekdays, 9am to 4pm weekends</div>
+</div>
+</div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#C93B62","options":["#C93B62","#B8472F","#2F7F72","#1A1A1A"]},"$preview":{"width":1440,"height":4800}}'>
+class Component extends DCLogic {
+renderVals() {
+return { accent: this.props.accent ?? '#C93B62' };
+}
+}
+</script>
+</body>
+</html>
